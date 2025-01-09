@@ -1,0 +1,59 @@
+##fileformat=VCFv4.2
+##fileformat=VCFv4.1
+##fileDate=20241001
+##source=GenerateSVCandidates 1.6.0
+##reference=file:///ingemm/ref/Ref/hg19/fasta/ucsc.hg19.fasta
+##contig=<ID=chrM,length=16571>
+##contig=<ID=chr1,length=249250621>
+##contig=<ID=chr2,length=243199373>
+##contig=<ID=chr3,length=198022430>
+##contig=<ID=chr4,length=191154276>
+##contig=<ID=chr5,length=180915260>
+##contig=<ID=chr6,length=171115067>
+##contig=<ID=chr7,length=159138663>
+##contig=<ID=chr8,length=146364022>
+##contig=<ID=chr9,length=141213431>
+##contig=<ID=chr10,length=135534747>
+##contig=<ID=chr11,length=135006516>
+##contig=<ID=chr12,length=133851895>
+##contig=<ID=chr13,length=115169878>
+##contig=<ID=chr14,length=107349540>
+##contig=<ID=chr15,length=102531392>
+##contig=<ID=chr16,length=90354753>
+##contig=<ID=chr17,length=81195210>
+##contig=<ID=chr18,length=78077248>
+##contig=<ID=chr19,length=59128983>
+##contig=<ID=chr20,length=63025520>
+##contig=<ID=chr21,length=48129895>
+##contig=<ID=chr22,length=51304566>
+##contig=<ID=chrX,length=155270560>
+##contig=<ID=chrY,length=59373566>
+##INFO=<ID=SVTYPE,Number=1,Type=String,Description="Type of structural variant">
+##INFO=<ID=SVLEN,Number=.,Type=Integer,Description="Difference in length between REF and ALT alleles">
+##INFO=<ID=END,Number=1,Type=Integer,Description="End position of the variant described in this record">
+##INFO=<ID=CIPOS,Number=2,Type=Integer,Description="Confidence interval around POS">
+##INFO=<ID=CIEND,Number=2,Type=Integer,Description="Confidence interval around END">
+##INFO=<ID=CIGAR,Number=A,Type=String,Description="CIGAR alignment for each alternate indel allele">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	NGS35137-Novaseq6000-Nextera-DNA-Exome-Panel-v2-IDT-Run220707-Control-NIST_S4_align
+chr1	16900962	.	N	<DUP>	.	PASS	SVTYPE=DUP;END=16907471;SVLEN=6510	.	.
+chr1	25611044	.	N	<DEL>	.	PASS	SVTYPE=DEL;END=25634327;SVLEN=23284	.	.
+chr1	248737082	.	N	<DEL>	.	PASS	SVTYPE=DEL;END=248814205;SVLEN=77124	.	.
+chr10	89120218	.	N	<DUP>	.	PASS	SVTYPE=DUP;END=89125582;SVLEN=5365	.	.
+chr14	20248462	.	N	<DEL>	.	PASS	SVTYPE=DEL;END=20404781;SVLEN=156320	.	.
+chr16	70164306	.	N	<DEL>	.	PASS	SVTYPE=DEL;END=70177581;SVLEN=13276	.	.
+chr17	20355088	.	N	<DEL>	.	PASS	SVTYPE=DEL;END=20360004;SVLEN=4917	.	.
+chr2	98152743	.	N	<DEL>	.	PASS	SVTYPE=DEL;END=98156712;SVLEN=3970	.	.
+chr22	20377828	.	N	<DUP>	.	PASS	SVTYPE=DUP;END=20380346;SVLEN=2519	.	.
+chr22	22599195	.	N	<DEL>	.	PASS	SVTYPE=DEL;END=22893531;SVLEN=294337	.	.
+chr4	2010457	.	N	<DUP>	.	PASS	SVTYPE=DUP;END=2061634;SVLEN=51178	.	.
+chr4	9174879	.	N	<DEL>	.	PASS	SVTYPE=DEL;END=9213995;SVLEN=39117	.	.
+chr4	69403323	.	N	<DEL>	.	PASS	SVTYPE=DEL;END=69434222;SVLEN=30900	.	.
+chr7	76162991	.	N	<DUP>	.	PASS	SVTYPE=DUP;END=76169723;SVLEN=6733	.	.
+chr9	39266873	.	N	<DUP>	.	PASS	SVTYPE=DUP;END=39361826;SVLEN=94954	.	.
+chr9	41502701	.	N	<DUP>	.	PASS	SVTYPE=DUP;END=42377571;SVLEN=874871	.	.
+chr9	65503496	.	N	<DUP>	.	PASS	SVTYPE=DUP;END=65657520;SVLEN=154025	.	.
+chrY	19881404	.	N	<DEL>	.	PASS	SVTYPE=DEL;END=20710377;SVLEN=828974	.	.
+chrY	23545298	.	N	<DEL>	.	PASS	SVTYPE=DEL;END=23681208;SVLEN=135911	.	.
+chrY	23687076	.	N	<DEL>	.	PASS	SVTYPE=DEL;END=23704749;SVLEN=17674	.	.
+chrY	24032687	.	N	<DEL>	.	PASS	SVTYPE=DEL;END=24050361;SVLEN=17675	.	.
+chrY	26988419	.	N	<DEL>	.	PASS	SVTYPE=DEL;END=26999599;SVLEN=11181	.	.

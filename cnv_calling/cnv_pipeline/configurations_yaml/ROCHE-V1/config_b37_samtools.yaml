@@ -1,0 +1,37 @@
+##
+## Config file for snakemake CNV callers benchmarking workflow using bowtie2-samtools-gatk4 alignment 
+##
+
+## Fasta
+human_reference: /ingemm/ref/Ref/b37/fasta/references_b37_Homo_sapiens_assembly19.fasta
+
+## Bed taget
+exome_bed: /ingemm/scratch/TFM/CNV/BEDs/ROCHEv1-KAPA_HyperExome_b37_primary_targets.bed
+lacon_exome_bed : /ingemm/scratch/TFM/CNV/TFM_borrador/algorithms/tools/laconv/exome_bed37/240722_Exomas_annotated_for_coverage.bed
+exomedepth_bed : /ingemm/scratch/TFM/CNV/BEDs/old_beds/ROCHEv1-KAPA_HyperExome_b37_primary_targets.bed
+
+# lacon files
+lacon_config : /ingemm/scratch/TFM/CNV/TFM_borrador/algorithms/tools/laconv/config_b37.cfg
+
+# cnvkit files
+refFlat: /ingemm/scratch/TFM/CNV/TFM_borrador/algorithms/tools/cnvkit/refFlat_nochr.txt
+bed_mappable: /ingemm/scratch/TFM/CNV/TFM_borrador/algorithms/tools/cnvkit/access-5k-mappable.grch37.bed
+
+
+## Aligment
+alignment_dir: /ingemm/scratch/TFM/CNV/alignment
+sonda : ROCHE-V1
+alignment: bowtie2-samtools-gatk4
+
+## Gold standard
+gold_standard_general : /ingemm/scratch/TFM/CNV/TFM_borrador/gold_standard/HG001/final_gold_standard/general/gold_standard_general_ROCHEv1.vcf
+gold_standard_pass : /ingemm/scratch/TFM/CNV/TFM_borrador/gold_standard/HG001/final_gold_standard/pass/gold_standard_pass_ROCHEv1.vcf
+
+## Directories 
+singularity_dir : /ingemm/scratch/TFM/CNV/TFM_borrador/algorithms/imagenes
+tools_dir: /ingemm/scratch/TFM/CNV/TFM_borrador/algorithms/tools/
+pipeline_dir: /ingemm/scratch/TFM/CNV/TFM_borrador/algorithms/pipeline
+ss_samples: /ingemm/scratch/TFM/CNV/TFM_borrador/algorithms/pipeline/configuraciones/ROCHE-V1/ss_b37.txt
+ss_controls: /ingemm/scratch/TFM/CNV/TFM_borrador/algorithms/pipeline/configuraciones/ROCHE-V1/ss_b37_controles.txt
+results_dir: /ingemm/scratch/TFM/CNV/TFM_borrador/algorithms/results
+results_process_dir: /ingemm/scratch/TFM/CNV/TFM_borrador/algorithms/results_posprocess

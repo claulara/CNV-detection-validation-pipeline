@@ -1,0 +1,3 @@
+Samples
+NGS25603-HiSeq4000-exoma-Run200513-HG-0001_S358_align.realign
+NGS25906-HiSeq4000-exoma-Run200604-HG-0001_S287_align.realign

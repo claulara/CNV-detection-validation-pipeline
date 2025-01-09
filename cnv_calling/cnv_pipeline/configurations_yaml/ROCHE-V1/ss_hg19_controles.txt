@@ -1,0 +1,14 @@
+Samples
+NovaSeq6000-Exoma-V2---Run240722--OFHI-112508-102_S69_align.realign
+NovaSeq6000-Exoma-V2---Run240722--OFHI-112509-102_S70_align.realign
+NovaSeq6000-Exoma-V2---Run240722--NEUR-116440-101_S74_align.realign
+NovaSeq6000-Exoma-V2---Run240722--NEUR-120374-101_S80_align.realign
+NovaSeq6000-Exoma-V2---Run240722--NEUR-120369-101_S81_align.realign
+NovaSeq6000-Exoma-V2---Run240722--NEUR-121094-101_S83_align.realign
+NovaSeq6000-Exoma-V2---Run240722--NEUR-121091-101_S84_align.realign
+NovaSeq6000-Exoma-V2---Run240722--NEUR-121190-101_S86_align.realign
+NovaSeq6000-Exoma-V2---Run240722--NEUR-121192-101_S87_align.realign
+NovaSeq6000-Exoma-V2---Run240722--NEUR-123575-101_S96_align.realign
+NovaSeq6000-Exoma-V2---Run240722--NEUR-123577-101_S97_align.realign
+NovaSeq6000-Exoma-V2---Run240722-GE1194-END2-123655-101_S99_align.realign
+NovaSeq6000-Exoma-V2---Run240722-GE1195-END2-123674-101_S100_align.realign

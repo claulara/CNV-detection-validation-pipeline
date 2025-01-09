@@ -1,0 +1,14 @@
+Samples
+NGS27168-HiSeq4000-exoma-Run201015-HG-0002_S81_align.realign
+NGS27169-HiSeq4000-exoma-Run201015-HG-0003_S82_align.realign
+NGS27170-HiSeq4000-exoma-Run201015-HG-0004_S83_align.realign
+NGS26087-HiSeq4000-exoma-Run200625-87439_S195_align.realign
+NGS26088-HiSeq4000-exoma-Run200625-87440_S196_align.realign
+NGS26091-HiSeq4000-exoma-Run200625-87561_S199_align.realign
+NGS26094-HiSeq4000-exoma-Run200625-82126_S202_align.realign
+NGS26095-HiSeq4000-exoma-Run200625-82128_S203_align.realign
+NGS26148-HiSeq4000-exoma-Run200625-87507_S205_align.realign
+NGS26149-HiSeq4000-exoma-Run200625-87506_S206_align.realign
+NGS26152-HiSeq4000-exoma-Run200625-87764_S209_align.realign
+NGS26156-HiSeq4000-exoma-Run200625-72852_S213_align.realign
+NGS26157-HiSeq4000-exoma-Run200625-72853_S214_align.realign
